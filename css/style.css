@@ -1,14 +1,12 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-li {
+.wrap1 li {
   list-style: none;
 }
-
-section {
-  border: 2px solid red;
+.wrap1 section {
   height: 100vh;
   background: #23282a;
   color: #fff;
@@ -16,25 +14,23 @@ section {
   justify-content: center;
   align-items: center;
 }
-
-.con01 .title {
+.wrap1 .con01 .title {
   font-size: 120px;
   line-height: 1.1;
 }
-.con01 .title span {
+.wrap1 .con01 .title span {
   -webkit-text-stroke: 2px #badd40;
   color: transparent;
   display: block;
 }
-
-.con02 ul {
+.wrap1 .con02 ul {
   width: 70%;
   display: flex;
   justify-content: space-between;
   color: #23282a;
   font-weight: bold;
 }
-.con02 ul li {
+.wrap1 .con02 ul li {
   width: 22%;
   height: 300px;
   border-radius: 20px;
@@ -43,16 +39,16 @@ section {
   align-items: center;
   background: #fed700;
 }
-
-.con03 {
+.wrap1 .con03 {
   position: relative;
+  overflow: hidden;
 }
-.con03 .contitle {
+.wrap1 .con03 .contitle {
   -webkit-text-stroke: 2px #badd40;
   color: transparent;
   font-size: 100px;
 }
-.con03 span {
+.wrap1 .con03 span {
   display: block;
   width: 250px;
   height: 350px;
@@ -69,26 +65,77 @@ section {
   font-size: 28px;
   font-weight: bold;
 }
-.con03 span.a {
+.wrap1 .con03 span.a {
   transform: translate(-50%, -50%) rotate(-12deg);
 }
-.con03 span.b {
+.wrap1 .con03 span.b {
   background: #ffbbcc;
   transform: translate(-50%, -50%) rotate(12deg);
 }
-.con03 span.c {
+.wrap1 .con03 span.c {
   background: #ffcccc;
   transform: translate(-50%, -50%) rotate(-15deg);
 }
-.con03 span.d {
+.wrap1 .con03 span.d {
   background: #df9773;
   transform: translate(-50%, -50%) rotate(18deg);
 }
-.con03 span.e {
+.wrap1 .con03 span.e {
   background: #d9eccb;
   transform: translate(-50%, -50%) rotate(-3deg);
 }
-
-.end {
+.wrap1 .end {
   font-size: 50px;
+}
+
+.wrap2 section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap2 h2 {
+  font-size: 140px;
+  line-height: 1;
+}
+.wrap2 .con01 h2 span {
+  display: block;
+  -webkit-text-stroke: 2px #f45b40;
+  color: transparent;
+}
+.wrap2 .con02 {
+  position: relative;
+  height: 1200px;
+  overflow: hidden;
+}
+.wrap2 .con02 .circle {
+  background: #000;
+  position: absolute;
+  width: 2500px;
+  height: 2500px;
+  border-radius: 50%;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wrap2 .con02 .text-box {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 2;
+}
+.wrap2 .con02 .text-box p {
+  font-size: 64px;
+  font-weight: bold;
+  letter-spacing: -5px;
+  line-height: 1;
+}
+.wrap2 .con03 {
+  background: #000;
+}
+.wrap2 .con03 h2 {
+  color: #888;
 }

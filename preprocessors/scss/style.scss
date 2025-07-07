@@ -1,108 +1,177 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
-li {
-  list-style: none;
-}
+.wrap1 {
+  li {
+    list-style: none;
+  }
 
-section {
-  border: 2px solid red;
-  height: 100vh;
-  background: #23282a;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  section {
+    // border: 2px solid red;
+    height: 100vh;
+    background: #23282a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.con01 {
-  .title {
-    font-size: 120px;
-    line-height: 1.1;
+  .con01 {
+    .title {
+      font-size: 120px;
+      line-height: 1.1;
 
-    span {
-      -webkit-text-stroke: 2px #badd40;
-      color: transparent;
-      display: block;
+      span {
+        -webkit-text-stroke: 2px #badd40;
+        color: transparent;
+        display: block;
+      }
     }
   }
-}
 
-.con02 {
-  ul {
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    color: #23282a;
-    font-weight: bold;
+  .con02 {
+    ul {
+      width: 70%;
+      display: flex;
+      justify-content: space-between;
+      color: #23282a;
+      font-weight: bold;
 
-    li {
-      width: 22%;
-      height: 300px;
+      li {
+        width: 22%;
+        height: 300px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fed700;
+      }
+    }
+  }
+
+  .con03 {
+    position: relative;
+    overflow: hidden;
+
+    .contitle {
+      -webkit-text-stroke: 2px #badd40;
+      color: transparent;
+      font-size: 100px;
+    }
+
+    span {
+      display: block;
+      width: 250px;
+      height: 350px;
       border-radius: 20px;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #fed700;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: #fee8b0;
+      color: #333;
+      font-size: 28px;
+      font-weight: bold;
+
+      &.a {
+        transform: translate(-50%, -50%) rotate(-12deg);
+      }
+
+      &.b {
+        background: #ffbbcc;
+        transform: translate(-50%, -50%) rotate(12deg);
+      }
+
+      &.c {
+        background: #ffcccc;
+        transform: translate(-50%, -50%) rotate(-15deg);
+      }
+
+      &.d {
+        background: #df9773;
+        transform: translate(-50%, -50%) rotate(18deg);
+      }
+
+      &.e {
+        background: #d9eccb;
+        transform: translate(-50%, -50%) rotate(-3deg);
+      }
     }
+  }
+
+  .end {
+    font-size: 50px;
   }
 }
 
-.con03 {
-  position: relative;
-  // overflow: hidden;
-
-  .contitle {
-    -webkit-text-stroke: 2px #badd40;
-    color: transparent;
-    font-size: 100px;
-  }
-
-  span {
-    display: block;
-    width: 250px;
-    height: 350px;
-    border-radius: 20px;
+.wrap2 {
+  section {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    background: #fee8b0;
-    color: #333;
-    font-size: 28px;
-    font-weight: bold;
+  }
 
-    &.a {
-      transform: translate(-50%, -50%) rotate(-12deg);
-    }
+  h2 {
+    font-size: 140px;
+    // color: #000;
+    line-height: 1;
+  }
 
-    &.b {
-      background: #ffbbcc;
-      transform: translate(-50%, -50%) rotate(12deg);
-    }
-
-    &.c {
-      background: #ffcccc;
-      transform: translate(-50%, -50%) rotate(-15deg);
-    }
-
-    &.d {
-      background: #df9773;
-      transform: translate(-50%, -50%) rotate(18deg);
-    }
-
-    &.e {
-      background: #d9eccb;
-      transform: translate(-50%, -50%) rotate(-3deg);
+  .con01 {
+    h2 {
+      span {
+        display: block;
+        -webkit-text-stroke: 2px #f45b40;
+        color: transparent;
+      }
     }
   }
-}
 
-.end {
-  font-size: 50px;
+  .con02 {
+    position: relative;
+    height: 1200px;
+    overflow: hidden;
+
+    .circle {
+      background: #000;
+      position: absolute;
+      width: 2500px;
+      height: 2500px;
+      border-radius: 50%;
+      top: 40%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .text-box {
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      z-index: 2;
+
+      p {
+        font-size: 64px;
+        font-weight: bold;
+        letter-spacing: -5px;
+        line-height: 1;
+      }
+    }
+  }
+
+  .con03 {
+    background: #000;
+
+    h2 {
+      color: #888;
+    }
+  }
 }
