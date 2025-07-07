@@ -1,0 +1,48 @@
+*인물사진은 초상권 관련하여 첨부하지 않은점 이해부탁드립니다.
+
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&family=Manrope&family=Noto+Sans+KR:wght@400;500&display=swap');
+
+
+/* Reset */
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+a {color: inherit; text-decoration: inherit;}
+li {list-style: none;}
+address, em, i {font-style: normal;}
+button {background: none; border: none;}
+img {vertical-align: middle;}
+
+body {font-family: 'MonumentGrotesk', sans-serif; }
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+
+<div class="textBox">
+                    <span class="title en">recommended destination</span>
+                    <span class="text">Thailand</span>
+                    <span class="title en">Travel eriod</span>
+                    <span class="text">5 days 3 nights</span>
+                    <span class="title en">visiting city</span>
+                    <span class="text">Incheon > Bangkok > Pattaya > Incheon</span>
+                    <span class="title en">transportation</span>
+                    <span class="text">Korean Air, Jeju Air, Asiana Airlines</span>
+                    <span class="title en">suggestion! Pattaya</span>
+                    <span class="text">
+                        Located on the eastern side of the Gulf of Thailand, Pattaya is known as the “Hawaii of the East” for its sunny beaches, 
+                       beautiful beaches and delicious seafood. The 15-kilometer-long coastline with lapping crystal-clear waters is a favorite 
+                      tourist destination for sunbathers and beaches for aficionados from around the world. Water sports are also plentiful, 
+                      and jet skiing, parasailing and diving are a must-try if you are traveling here.
+                  </span>
+ </div>
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+Bangkok Royal Palace | SEA LIFE Ocean World Bangkok | Chao Phraya River | Chiang Mai Night Zoo | Chiang Mai | Phra That 
+Doi Suthep Temple | Phuket Simon Cabaret Show | Patong Beach | Phuket FantaSea | Tiffany Show | Sanctuary of Truth 
+Museum | Pattaya Floating Market | Ao Nang Beach | Railay Beach | Krabi Town | Samui Island | Chaweng Beach | Lamai
+ Beach | Hua Hin Beach | Hua Hin Night Market | Banana Bar Water Jungle | Leung Khun Temple (White Temple) | Van Dam
+ Museum Black House | Blue Temple (Wat Lung Suaten) | Phi Phi Islands | koh phi phi money | Maya Bay | Pai Love 
+Strawberry | Pai Historical Bridge | Pai Gorge
